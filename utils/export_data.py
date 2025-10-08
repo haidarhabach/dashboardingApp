@@ -18,7 +18,7 @@ def export_to_work(results):
             doc.add_paragraph(text)
             doc.add_paragraph("") # la nerja3 3al sater
 
-            #close the figure
+            #close the fig
             plt.close(fig)
         
         except Exception as e:
